@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Rose</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="topheader">
+            <h1>Shop Rose</h1>
+            <nav>
+                <a id="navhome" href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">All the clothes</a>
+            </nav>
+        </div>
+        <h2 class="headertitle">Welcome!</h2>
+        <h3 class="headertitle">always fresh</h3>
+    </header>
+    <main>
+        <section id="maincontainer">
+            <h2 id="firsttitle">Thank for entering our website "Shop Rose"</h2>
+            <div id="imglistcontainer">
+                <img id="mainimgone" src="./assets/images/girl.jpg" alt="girl shopping" title="girl shopping">
+                <ul>
+                    <li>We have over 20 years of experience</li>
+                    <li>You can write us to customize your garment</li>
+                    <li>We have home delivery</li>
+                    <li>We have guarantee for all your garments</li>
+                </ul>
+            </div>
+        </section>
+        <h2 class="title">Most Purchased</h2>
+        <div id="mainprodcontainer">
+            <div class="prodcontainer">
+                <img class="prodimg" src="./assets/images/shirts.jpg" alt="shirts" title="shirts">
+                <h3>Shirts</h3>
+            </div>
+            <div class="prodcontainer">
+                <img class="prodimg" src="./assets/images/shoes.jpg" alt="shoes" title="shoes">
+                <h3>Shoes</h3>
+            </div>
+            <div class="prodcontainer">
+                <img class="prodimg" src="./assets/images/combo.jpg" alt="combo clothes" title="clothes combo">
+                <h3>Combo</h3>
+            </div>
+        </div>
+        <h2 class="title">More information about "Most purchased"</h2>
+        <div id="maindatacontainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Price</th>
+                        <th>Garment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>$200</td>
+                        <td>Shoes</td>
+                    </tr>
+                    <tr>
+                        <td>$500</td>
+                        <td>Combo</td>
+                    </tr>
+                    <tr>
+                        <td>$350</td>
+                        <td>Shirts</td>
+                    </tr>
+                </tbody>
+            </table>
+            <form action="./assets/pages/show_data.html" method="get">
+                <fieldset>
+                    <legend>Subscribe for more information</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </fieldset>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="footerp">MindHub Cohort N47</p>
+        <p class="footerp">Created By: Marco Miquel</p>
+        <a id="footera" href="mailto:shoprose@mindh.com">shoprose@mindh.com</a>
+    </footer>
+</body>
+</html>
